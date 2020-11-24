@@ -16,5 +16,7 @@ A simple utility script that walks a directory tree and calculates the sizes of 
 1. Separate **csv** output stream to its own function for readability.
 2. Clean up print statements scattered through code.
 3. Potentially add support for multiple target_path inputs.
-4. Change time calculation for *file_helper*.
-5. At some point, release Linux variant.
+4. Potentially redo base case checking for input validation/rework it completely.
+5. Change time calculation for *file_helper*.
+6. At some point, release Linux variant.
+7. Maybe expand this to a GUI using PyQt or tkinter.
