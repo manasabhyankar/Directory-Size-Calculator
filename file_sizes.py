@@ -86,4 +86,7 @@ if __name__ == '__main__':
             main_list.extend(val_list)
             writer.writerow(main_list)
     csv_file.close()
-    print(destination_path.split('\\')[2] + " was created at " + destination_path)
+    if(sys.platform == "linux"):
+        print(destination_path.split('/')[-1] + " was created at " + destination_path)  
+    elif(sys.platform == "win32"):
+        print(destination_path.split('\\')[-1] + " was created at " + destination_path)
